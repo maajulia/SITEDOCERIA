@@ -1,0 +1,301 @@
+body{
+  background-color: #f9d2ed 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+*{
+  padding:0;  
+  margin:0;
+  font-family: 'Inter', sans-serif;
+} 
+
+header {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 10px #d96da3 ; 
+}
+
+.nav-bar{
+  display:flex ;
+  justify-content: space-between ;
+  padding: 1.5rem 6rem ;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+}
+
+.logo h1{
+  color: #f46cbe;
+  font-family: "poppins" ;
+  font-weight:800; 
+  font-size: 30px;
+}
+
+.nav-list{
+   display: flex;
+   align-items: center;
+}
+
+.nav-list ul{
+   display: flex;
+   justify-content: center;
+   list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #ff75c8;
+  font-weight: 400;
+}
+
+.entrar{
+	background-color: #ff75c8;
+	cursor: pointer;
+	color: #fcfcfc;;
+	border-radius: 5px;
+	padding: 5px 10px;
+  text-align: center;
+}
+.entrar:hover{
+	background-color: #f2abd6 ;
+}
+.cadastrar{	
+	padding: 7px 16px;	
+	color: #ff75c8;
+  text-align: center;
+}
+.cad:hover{	
+	color: #f2abd6;
+}
+
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 7px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover {
+    background-color: #ff75c8;
+    color: #ffffff;
+}
+
+.entrar_login{
+  display: none;
+	width: 180px;
+	height: 200px;
+	background-color: #f9a9d9;
+	position: absolute;
+	top: 12vh;
+	left: 86vw;
+  border: 3px;
+  padding-left: 15px;
+}
+.logar{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+.entrar_login p{
+  margin-top: 15px;
+  text-align: center;
+  color: #f7f7fd ;
+}
+
+
+.text_usuario{
+width: 150px;
+
+}
+
+.text_senha{
+width: 150px;
+}
+
+.senha{
+  margin-top: 15px;
+  color: #f7f7fd;
+  font-size: 15px;
+}
+
+.usuario{
+  margin-top: 10px;
+  color: #f7f7fd;
+  font-size: 15px;
+}
+
+.acessar{
+  margin-top: 8px;
+  background-color: #ff75c8;
+	cursor: pointer;
+	color: #fbf9fa;
+	border-radius: 5px;
+  border: none;
+	padding: 5px 12px;
+  text-align: center;
+  
+}
+
+.acessar:hover{
+	background-color: #d388b5 ;
+}
+
+
+
+section.confeitados {
+    width: 100%;
+}
+
+section.confeitados .container {
+    width: 100%;
+    padding: 0 10%;
+    margin: 0 auto;
+    max-width: 1280px;
+    text-align: center;
+}
+
+section.confeitados .container h2 {
+    text-transform: uppercase;
+    padding: 50px 0;
+    color: #fd30ab;
+    font-family: "poppins" ;
+    font-weight:600;
+   font-size: 30px;
+    
+}
+
+.confeitados {
+    display: inline-block;
+    width: 250px;
+    height: 290px;
+    text-align: left;
+    color: #3b172a;
+}
+
+.confeitados img {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.confeitados h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+
+.confeitados a.btn {
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 3px 3px;
+    background-color: #f075c9;
+    text-decoration: none;
+    
+}
+
+
+.ContPers{
+  margin-top: 50px;
+  background-color: #fd30ab;
+  color: #f9d2ed;
+  width: 2150px;
+  height: 20px;
+  padding: 40px;
+  font-size: 25px;
+  font-family: "poppins" ;
+  font-weight:600;
+}
+
+.cont h1{
+  margin-top: 15px;
+  color:#fd30ab; 
+  font-size: 25px;
+  font-family: "poppins" ;
+  font-weight:600; 
+
+}
+
+.cont button{
+  margin-top: 5px;
+  background-color: #fd72c8;
+	cursor: pointer;
+	color: #fcfcfc;;
+	border-radius: 3px;
+  width: 80px;
+	padding: 3px 6px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  position: center;
+  
+}
+
+  
+.cont button:hover{
+	background-color: #f722a2 ;
+ 
+}
+
+
+main .informacoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px;
+  font-size: 25px;
+  font-family: "poppins"
+}
+
+.informacoes_titulo{
+  grid-column: 1/-1;
+  text-align: center;
+  color: #fd30ab;
+}
+
+.informacoes_titulo h2{
+  margin-top: 5px;
+  color: #ff61cd;
+  font-size: 20px;
+  position: relative;
+}
+
+.informacoes_titulo button{
+  background-color: #ff75c8;
+	cursor: pointer;
+	color: #fcfcfc;;
+	border-radius: 3px;
+  width: 80px;
+	padding: 3px 6px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  position: center;
+  
+}
+
+.informacoes_titulo img{
+  margin-top: 25px;
+}
