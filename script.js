@@ -31,7 +31,7 @@ function mouseOut(){
 }
 
 ///
-var imgAtual = "https://i.pinimg.com/564x/91/4b/df/914bdf5aef777b1b3b01dc1fcaa8a12f.jpg";
+var imgAtual = "https://colombianabroad.com/wp-content/uploads/2015/09/hello-kitty-cafe-seul-13-600x399.jpg";
 var imgAnterior = "https://img.freepik.com/fotos-premium/tres-jovens-cozinheiras-em-uniformes-brancos-confiantemente-voltadas-para-a-camera_917664-161673.jpg";
  
 function trocar(){     document.getElementById("figura").src = imgAtual;
